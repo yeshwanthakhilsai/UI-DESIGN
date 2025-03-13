@@ -3,10 +3,10 @@ import 'dart:io';
 void main() {
   SwitchDemo demo = SwitchDemo();
   
-  // Run the fruit method
+  
   demo.fruit();
   
-  // Calculate fruit price
+
   print('Enter fruit name to calculate price');
   String? fruitName = stdin.readLineSync();
   
